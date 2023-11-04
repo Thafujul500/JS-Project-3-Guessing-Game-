@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Handlee&family=Montserrat&family=Nunito:wght@300&family=Roboto&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nonito",sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
+   
+}
+
+.conatiner{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(8, 245, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 32rem;
+    height: 20rem;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card_title h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardBody{
+    text-align: center;
+}
+
+.cardBody label{
+    display: block;
+    margin:  0 auto;
+    margin-top: 5px;
+}
+
+.cardBody input {
+    width: 130px;
+    height: 33px;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: 3px solid black;
+    color: blueviolet;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: .5s;
+}
+.cardBody input:focus{
+    border: 2px solid red;
+    background-color: bisque;
+
+}
+
+
+.cardBody button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: brown;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 3px solid black;
+    transition: .4s;
+
+
+}
+
+.cardBody button:hover{
+    background-color: darkgrey;
+}
+
+.result {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.last{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.resultText{
+    margin: 10px 0;
+    font-size: 20px;
+    color: rgb(228, 8, 8);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text{
+    font-size: 1.5rem;
+    color: bisque;
+    margin: 10px 0;
+}
+.remainingText{
+    font-size: 1.2rem;
+    color: rgb(160, 153, 153);
+}
